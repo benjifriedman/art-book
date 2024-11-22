@@ -88,12 +88,6 @@ def create_pdf_from_images(image_folder, output_pdf):
     c.save()
     print(f"PDF created: {output_pdf}")
 
-# Usage
-# image_folder = "/Users/benjifriedman/Desktop/benji_art_gallery_october_2024/public/art"  
-# output_pdf = "output.pdf" 
-# create_pdf_from_images(image_folder, output_pdf)
-
-
 # Replace the hardcoded usage section at the bottom with:
 if __name__ == "__main__":
     image_folder = input("Enter the path to your images folder: ").strip()
